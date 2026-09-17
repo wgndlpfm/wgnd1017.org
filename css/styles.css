@@ -146,6 +146,11 @@ nav {
     display: block;
 }
 
+/* Show dropdown on tap (mobile) */
+.dropdown.open .dropdown-content {
+    display: block;
+}
+
 /* Responsive handling */
 @media (max-width: 600px) {
     nav {
